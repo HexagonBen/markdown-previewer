@@ -1,0 +1,49 @@
+#background {
+    background-image: url(https://cdn.pixabay.com/photo/2016/03/26/13/09/workspace-1280538_960_720.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 100vh;
+}
+#titleHouse {
+    background-color: rgb(0, 0, 0, 0.6);
+    box-shadow: none;
+    border-radius: 10px;
+    margin: 2rem;
+    padding: 2rem;
+    text-align: center;
+}
+textarea {
+    min-width: 50rem;
+    max-width: 100%;
+    box-shadow: 5px 5px 10px 2px rgba(0,0,0,.8);
+}
+#editorWrapping {
+    box-shadow: none;
+    max-width: 100%;
+}
+
+
+
+
+div {
+    box-shadow: 5px 5px 10px 2px rgba(0,0,0,.8);
+}
+
+img {
+    display: block;
+    max-width: 90%;
+    margin: 2rem auto;
+  }
+
+
+
+  @media screen and (max-width: 840px) {
+    textarea {
+      width: 100%;
+    }
+    body {
+      font-size: 0.9rem;
+    }
+  }
+  
